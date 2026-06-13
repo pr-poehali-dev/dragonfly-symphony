@@ -1,5 +1,6 @@
 import ArcGalleryHero from "@/components/ArcGalleryHero";
 import StylesSection from "@/components/StylesSection";
+import HowItWorks from "@/components/HowItWorks";
 
 const Index = () => {
   const images = [
@@ -26,6 +27,7 @@ const Index = () => {
         className="pt-16 pb-16 md:pt-20 md:pb-20 lg:pt-24 lg:pb-24"
       />
       <StylesSection />
+      <HowItWorks />
     </main>
   );
 };

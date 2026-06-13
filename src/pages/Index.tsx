@@ -1,4 +1,5 @@
 import ArcGalleryHero from "@/components/ArcGalleryHero";
+import StylesSection from "@/components/StylesSection";
 
 const Index = () => {
   const images = [
@@ -11,7 +12,7 @@ const Index = () => {
   ];
 
   return (
-    <main className="relative min-h-screen bg-background">
+    <main className="relative bg-background">
       <ArcGalleryHero
         images={images}
         startAngle={20}
@@ -24,6 +25,7 @@ const Index = () => {
         cardSizeSm={80}
         className="pt-16 pb-16 md:pt-20 md:pb-20 lg:pt-24 lg:pb-24"
       />
+      <StylesSection />
     </main>
   );
 };

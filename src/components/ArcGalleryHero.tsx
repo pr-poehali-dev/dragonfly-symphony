@@ -100,18 +100,21 @@ const ArcGalleryHero = ({
 
       <div className="relative z-10 flex-1 flex items-center justify-center px-6 -mt-40 md:-mt-52 lg:-mt-64">
         <div className="text-center max-w-2xl px-6 opacity-0 animate-fade-in" style={{ animationDelay: '800ms', animationFillMode: 'forwards' }}>
+          <p className="text-sm font-semibold tracking-widest uppercase text-primary mb-3">
+            ✦ нейрофотосессии для соцсетей
+          </p>
           <h1 className="text-3xl sm:text-5xl lg:text-6xl font-bold tracking-tight text-foreground">
-            Визуальная галерея для вашего проекта
+            Стань главной героиней<br />своей ленты
           </h1>
           <p className="mt-4 text-lg text-muted-foreground">
-            Создавайте впечатляющие презентации изображений за считанные минуты.
+            Готовые образы в разных стилях с промптами — просто возьми и опубликуй.
           </p>
           <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
-            <button className="w-full sm:w-auto px-6 py-3 rounded-full bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5">
-              Начать создавать
+            <button className="w-full sm:w-auto px-6 py-3 rounded-full bg-primary text-primary-foreground hover:bg-primary/90 transition-all duration-200 shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 font-medium">
+              Смотреть стили
             </button>
-            <button className="w-full sm:w-auto px-6 py-3 rounded-full border border-border hover:bg-accent hover:text-accent-foreground transition-all duration-200">
-              Узнать больше
+            <button className="w-full sm:w-auto px-6 py-3 rounded-full border border-border hover:bg-accent hover:text-accent-foreground transition-all duration-200 font-medium">
+              Получить промпты
             </button>
           </div>
         </div>
